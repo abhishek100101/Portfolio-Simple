@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Inter&family=Playpen+Sans:wght@300;500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(255, 254, 254);
+    text-shadow: 1px 1px 2px rgb(91, 88, 88);
+    width: 15vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    height: 100vh;
+    border:1px solid rgb(7, 7, 7);
+    text-shadow: ;
+}
+.sidebar nav{
+    padding: 3vw;
+}
+.sidebar nav li{
+    list-style-type: none;
+    padding: 25px 0;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    /* color:white; */
+    width: 85vw;
+    display: flex;
+}
+.container{
+    display: flex;
+    
+}
+.infoContainer{
+    background-color:rgb(255, 255, 255);
+    width: 75vw;
+    height:45vh;
+    margin:10vh auto;
+    /* padding: 33px; */
+    display: flex;
+    justify-content:space-around;
+    border:1px solid white;
+}
+#devPic{
+    width:13vw;
+    height:45vh;
+    border:1px solid white; 
+}
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hello{
+   font-size: 30px;
+   
+}
+.name{
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Exo 2', sans-serif;
+}
+.about{
+    font-size: 30px;
+    
+}
+.button button{
+  /* margin 5px 5px; */
+  padding: 1vh;
+  border-radius: 10px;
+  background-color: #147116;
+  color: aliceblue;
+  box-shadow:#147116;
+}
+.button{
+    margin-top: 2vh;
+}
